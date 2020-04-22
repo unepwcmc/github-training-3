@@ -1,8 +1,10 @@
 This folders contains the code for a page that gives an overview of the data shown on chapter two of the Protected Planet Live Report (https://livereport.protectedplanet.net/).
 
-The data quoted in the overview is out-of-date.
+The background image is too bright to read the text easily and the client wants a neater font.
 
-1) Go to the livereport to find the correct data (hint: on chapter 2)
-2) Edit the text in `index.html` with the new figures and update the updated and next updated dates to this month and next month respectively.
+Go to styles.css in this folder and:
+
+1) Edit the opactity (line 18) to have a value of 0.7 instead of 0.
+2) Add a line between lines 2 and 3 and type 'font-family: Helvetica;', not including the quotes.
 
 To view the page in your browser, go to your file explorer and open index.html with your browser.
