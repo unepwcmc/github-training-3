@@ -1,11 +1,12 @@
 body {
   margin: 0;
+  font-family: fantasy;
 }
 
 .background {
   background: url("hero.jpeg"); background-size: cover;
   color: white;
-  height: 100vh;
+  height: 100wh;
 
   display: block;
   position: relative;
@@ -15,7 +16,7 @@ body {
 .background::before {
   background-color: black;
   content: '';
-  opacity: 0;
+  opacity: 0.5;
 
   position: absolute;
   top: 0;
@@ -28,7 +29,6 @@ body {
 .container {
   width: 50%;
 
-  position: absolute;
   top: 50%;
   left: 50%;
 
