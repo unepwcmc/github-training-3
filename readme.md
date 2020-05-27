@@ -6,3 +6,5 @@ For this part of the training you'll need to complete the following steps:
 3. Commit your changes.​
 4. Publish the branch.​
 5. Create a pull request.
+
+____
