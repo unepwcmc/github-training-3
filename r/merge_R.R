@@ -4,7 +4,7 @@
 #make dataframes
 df1 <- data.frame(c('ARG','FRA', 'GBR', 'VNM'),c(100, 200, 300, 500),stringsAsFactors = FALSE)
 names(df1)<- c("lkey","value")
-df2 <- data.frame(c('ARG','FRA','VNM'),c("Argentina", "France", "Vietnam" ),c("Latin America", "Europe", "Asia Pacific" ),stringsAsFactors = FALSE)
+df2 <- data.frame(c('ARG','FRA','GBR','VNM'),c("Argentina", "France","United Kingdom", "Vietnam" ),c("Latin America", "Europe","Europe","Asia Pacific" ),stringsAsFactors = FALSE)
 names(df2)<- c("rkey","country","region")
 
 #look at them
