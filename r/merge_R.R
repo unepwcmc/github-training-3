@@ -12,7 +12,8 @@ df1
 df2
 
 #join on the ISO3 columns - here they are called lkey and rkey for clarity
-df_merged<- merge(df1,df2,by.x<-"lkey", by.y ="rkey",all = TRUE)
+df_merged<- merge(df1,df2,by.x<-"lkey", by.y ="rkey",all.y = TRUE)
+
 
 #check it worked 
 df_merged
